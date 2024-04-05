@@ -1,21 +1,22 @@
-package com.epicode.U5D2.entities;
+package project.u5d4.entities;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Drink extends Item {
+
+public class Topping extends Item {
 	private String name;
 
-	public Drink(String name, int calories, double price) {
+	public Topping(String name, int calories, double price) {
 		super(calories, price);
 		this.name = name;
 	}
 
 	@Override
 	public String toString() {
-		return "Drink{" +
+		return "Topping{" +
 				"name='" + name + '\'' +
 				", calories=" + calories +
 				", price=" + price +

@@ -1,4 +1,4 @@
-package com.epicode.U5D2.entities;
+package project.u5d4.entities;
 
 import java.time.LocalTime;
 import java.util.ArrayList;

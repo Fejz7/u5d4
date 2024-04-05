@@ -1,7 +1,6 @@
 package project.u5d4;
 
-import com.epicode.U5D2.entities.Menu;
-import com.epicode.U5D2.entities.Pizza;
+import project.u5d4.entities.Menu;
 //import com.epicode.U5D2.repositories.PizzaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -19,7 +18,7 @@ public class OrdersRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(U5D2Application.class);
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(U5d4Application.class);
 		try {
 			Menu m = (Menu) ctx.getBean("menu");
 			m.printMenu();

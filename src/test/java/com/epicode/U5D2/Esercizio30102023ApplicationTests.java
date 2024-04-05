@@ -8,6 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.test.context.ActiveProfiles;
+import project.u5d4.entities.*;
 
 import java.util.List;
 

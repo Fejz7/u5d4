@@ -1,4 +1,4 @@
-package com.epicode.U5D2.entities;
+package project.u5d4.entities;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
